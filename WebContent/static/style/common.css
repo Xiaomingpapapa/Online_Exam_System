@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+#main-body {
+    width:1280px; 
+    height: 760px; 
+    border: 1px solid; 
+    margin: 0px auto; 
+    background-color: #D2DAE3;
+    
+}
+
+#header {
+    height: 80px; 
+    border: 1px solid; 
+    background-color: #2E4358;
+    overflow: hidden;
+}
+
+.header-logo {
+    float: left; 
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+.header-font {
+    float: left; 
+    font-family: Arial Regular; 
+    font-size: 24px; 
+    color: #FFFFFF; 
+    margin-left: 40px; 
+    margin-top: 36px;
+}
+
+.header-tool {
+    position: relative; 
+    top: 20px; 
+    text-align: right;
+}
+
+.tool-switch-language {
+    font-family: 黑体  Regular; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    margin-right: 20px; 
+    margin-top: 20px;
+}
+.tool-user {
+    margin-right: 20px; 
+    margin-top: 10px;
+}
+
+.tool-user-image {
+    margin-right: 10px;
+}
+.tool-user-userstatus {
+    font-family: Arial Regular; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    margin-right: 30px;
+}
+.tool-user-username {
+    font-family: Arial Regular; 
+    font-size: 14px; 
+    color: #FFFFFF;
+}
+
+#breadcrumb {
+    width: 1280px; 
+    height: 40px; 
+    background-color: #FFFFFF; 
+}
+
+#breadcrumb .menu {
+    position: relative;
+    left: 20px;
+    width: 1260px;
+    display: inline-block;
+}
+
+#breadcrumb .menu ul{
+    text-align: center;
+    border-bottom: 1px solid;
+    overflow: hidden;
+}
+
+#breadcrumb .menu li {
+    float: left;
+    width: 216px;
+    height: 40px;
+    line-height: 40px;
+    font-faimly: Arial Regular;
+    font-size: 18px;
+    color: #2E4358;
+}
+
+#main-content{
+    width: 1245px; 
+    height: 580px; 
+    border: 1px solid; 
+    border-radius: 3px; 
+    position: relative; 
+    left: 20px; 
+    top: 30px;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+#main-bottom {
+    width: 1240px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    padding: 0px;
+}
+
+#main-bottom label {
+    font-size:12px; 5
+    font-family: Arial Reular;
+    color: #2E4358; 
+    position: absolute; 
+    left: 470px
+}
